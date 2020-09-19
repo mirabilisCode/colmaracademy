@@ -1,5 +1,6 @@
 html{
     font-size: 16px;
+    font-family: 'Roboto', sans-serif;
 }
 
 body{
@@ -7,27 +8,52 @@ body{
     height: 100%;
     margin: 0;
 }
-.navbar{
+#colmar{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #1B202B
+}
+#academy{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #687083;
+}
+header{
+    height: 4rem;
     display: flex;
-    width: 100%;
+    justify-content: center;
 }
-.nav-list{
+.header{
+    height: 4rem;
     display: flex;
-    margin: 1rem;
-    text-align: right;
-    position: relative;
-    left: 40rem;
-}
-.banner{
-    width: 60% ;
-    margin: 2rem 1.5rem;
-}
-.banner-box{
-    background-color: lightgray;
+    justify-content: space-between;
+    align-items: center;
     position: fixed;
+    z-index: 9999;
     width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
-.banner-text{
-    position: relative;
-    left: 40rem;
+.header-links{
+    display: flex;
+    align-items: flex-end;
+}
+.header-links a{
+    padding-right: 1rem;
+    text-decoration: none;
+    color: #4b4b4b;
+}
+.header-links a:hover{
+    color: #656979;
+}
+.logo{
+    display: inline-flex;
+    align-items: center;
+    margin-left: 1.5rem;
+}
+.logo img{
+    height: 3rem;
+    width: auto;
 }
