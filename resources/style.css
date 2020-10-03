@@ -245,3 +245,54 @@ section{
 .gray{
     background-color: #d6d6d6;
 }
+.third-banner{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    background-color: #f2f2f2;
+}
+.start-learning{
+    padding: 2rem 0rem 1rem;
+    justify-content: center;
+    display: flex;
+}
+.start-learning h1{
+    padding: 0;
+    margin: 0;
+}
+.third-banner-content{
+    width: 100%;
+    display: block;
+}
+.third-banner-images-and-text{
+    display: flex;
+    margin: 0rem 3rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.third-banner-images-and-text img{
+    height: auto;
+    max-width: 25rem;
+}
+.images-with-text{
+    background-color: white;
+    margin: 1rem 1rem;
+}
+.images-with-text h3{
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 1rem 0rem 1rem 1rem;
+}
+.images-with-text span{
+    font-weight: 100;
+    font-size: 1.2rem;
+    padding: 1rem 0rem 1rem 1rem;
+    color: #a6a6a6
+}
+.images-with-text p{
+    font-weight: 100;
+    font-size: 1rem;
+    padding: 1rem 0rem 1rem 1rem;
+    color: #a6a6a6;
+    margin: 0;
+}
