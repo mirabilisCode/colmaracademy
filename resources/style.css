@@ -63,11 +63,10 @@ header{
     width: 100%;
     justify-content: center;
     display: flex;
-    background-color: lightgray;
+    background-color: #d6d6d6;
     padding: 2rem 1.5rem;
 }
 .banner-cont{
-    background-color: #d6d6d6;
     display: flex;
     width: 100%;
     box-sizing: border-box;
@@ -81,7 +80,10 @@ header{
     height: auto;
 }
 .img-height{
-    height: 55%;
+    width: 100%;
+}
+.img-height img{
+    width: 100%;
 }
 .banner-text{
     padding: 0rem 0rem 6rem 1.5rem;
@@ -135,7 +137,7 @@ h3{
     padding: 0rem 0rem 2rem 0rem;
 }
 .second-banner-text{
-    width: 60%;
+    width: 100%;
     position: relative;
 }
 .second-banner-text span {
@@ -146,17 +148,17 @@ h3{
     width: 100%;
 }
 section{
-    display: block;
+    display: flex;
 }
 .second-banner{
     width: 100%;
-    box-sizing: border-box;
+    padding-left: 1.5rem;
 }
 .second-banner-cont{
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
-    padding: 2rem 1.5rem;
+    width: 60%;
+    margin-top: 2rem;
 }
 .second-banner-text p{
     color: #808080;
@@ -175,23 +177,71 @@ section{
     flex-direction: column;
     height: 100%;
     float: right;
-    
 }
 .column-images-width{
     width: 100%;
     margin-left: 1.5rem;
+    padding-bottom: 2rem;
 }
 .spacing{
     width: 100%;
+    padding: 1rem 0rem 1rem 0rem;
+    display: flex;
 }
 .spacing img{
     width: 35%;
     height: auto;
-    padding: 1rem;
+    padding: 0rem 1rem 0rem 1rem;
+    margin: 1rem 0rem 1rem 0rem;
+}
+.position{
+    padding: 0;
+    font-weight: 300;
+}
+.position-top-edge{
+    padding: 0;
+    margin-top: 4.5rem;
+    font-weight: 500;
+    font-size: 1.7rem;
+}
+.position-bottom-edge{
+    padding: 0;
+    margin-bottom: 4.5rem;
+    text-decoration: none;
+}
+.position-top-edge2{
+    padding: 0;
+    margin-top: 3.9rem;
+    font-weight: 500;
+    font-size: 1.7rem;
+}
+.position-bottom-edge2{
+    padding: 0;
+    margin-bottom: 3.9rem;
+    text-decoration: none;
+}
+
+.text-for-images{
+    display: flex;
+    width: 65%;
+    flex-direction: column;
+    justify-content: space-around;
 }
 .pictures-text{
     width: 65%;
 }
 .border{
-    border-left: 1px lightgray solid;
+    border-left: 1px #d6d6d6 solid;
+}
+.bottom-border{
+    border-bottom: 1px #d6d6d6 solid;
+}
+.top-border{
+    border-top: 1px #d6d6d6 solid;
+}
+.margin-bottom{
+    margin-bottom: 0.1rem;
+}
+.gray{
+    background-color: #d6d6d6;
 }
