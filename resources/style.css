@@ -296,3 +296,100 @@ section{
     color: #a6a6a6;
     margin: 0;
 }
+.fourth-banner{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    background-color: white;
+}
+.fourth-banner-content{
+    width: 100%;
+    display: block;
+}
+.video-wrapper{
+    width: 60%;
+    margin: 1rem 1.5rem 2rem 1.5rem;
+}
+.video-insert{
+    object-fit: cover;
+    width: 100%;
+}
+.right-fisma{
+    width: 100%;
+    margin-top: 1rem;
+    background-color: #d6d6d6;
+    display: flex;
+}
+.right-fisma img{
+    padding: 1rem;
+    height: auto;
+    width: 35%;
+}
+.right-text-fisma{
+    width: 65%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+#fisma-h3{
+    margin-top: 19%;
+    padding: 0;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+#fisma-span{
+    margin-bottom: 19%;
+    padding: 0;
+    font-weight: 200;
+    color: #666666;
+}
+.fourth-banner-video-and-images{
+    display: flex;
+}
+.fourth-banner-right-content{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.right-image{
+    width: 100%;
+    display: flex;
+}
+.right-image img{
+    width: 35%;
+    padding: 1rem;
+}
+.reimagine-urban h3{
+    font-weight: 600;
+    font-size: 1.4rem;
+    padding: 1.5rem 0rem 0.5rem 0rem;
+}
+.reimagine-urban p{
+    font-weight: 200;
+    color: #666666;
+    line-height: 1.5rem;
+}
+.reimagine-urban p, h3{
+    margin: 0;
+    padding: 0;
+}
+.foot{
+    border-top: 1px #d6d6d6 solid;
+    font-weight: 300;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.foot i{
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+.terms{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+.terms p{
+    margin: 0rem 0.5rem 0rem 0rem;
+}
