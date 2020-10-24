@@ -75,16 +75,18 @@ header{
     box-sizing: border-box;
 }
 .left{
-    display: flex;
-    width: 60%;
+    max-width: 60%;
+    max-height: 806px;
 }
 .left img{
-    width: 100%;
-    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto;
 }
 .img-height{
-    max-width: 900px;
-    max-height: 494px;
+    max-width: 100%;
+    max-height: 606px;
 }
 .img-height img{
     max-width: 100%;
@@ -166,7 +168,7 @@ section{
 .second-banner-cont{
     display: flex;
     flex-wrap: wrap;
-    width: 60%;
+    max-width: 60%;
     margin-top: 2rem;
 }
 .second-banner-text p{
