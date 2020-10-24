@@ -125,21 +125,21 @@ header{
 }
 h1{
     font-weight: 900;
-    font-size: 2.5rem;
+    font-size: 2.5vw;
     color: #404040;
     margin: 0;
     padding: 0rem 0rem 2rem 0rem;
 }
 h2{
     font-weight: 700;
-    font-size: 2.25rem;
+    font-size: 2.25vw;
     color: #404040;
     margin: 0rem 0rem 1.5rem 0rem;
     width: 100%;
 }
 h3{
     font-weight: 500;
-    font-size: 1.25rem;
+    font-size: 1.25vw;
     color: #404040;
     margin: 0;
     padding: 0rem 0rem 2rem 0rem;
@@ -206,28 +206,31 @@ section{
 .position{
     padding: 0;
     font-weight: 300;
+    font-size: 1vw;
 }
 .position-top-edge{
     padding: 0;
     margin-top: 4.5rem;
     font-weight: 500;
-    font-size: 1.7rem;
+    font-size: 1.7vw;
 }
 .position-bottom-edge{
     padding: 0;
     margin-bottom: 4.5rem;
     text-decoration: none;
+    font-size: 1.3vw;
 }
 .position-top-edge2{
     padding: 0;
     margin-top: 3.9rem;
     font-weight: 500;
-    font-size: 1.7rem;
+    font-size: 1.7vw;
 }
 .position-bottom-edge2{
     padding: 0;
     margin-bottom: 3.9rem;
     text-decoration: none;
+    font-size: 1.3vw;
 }
 
 .text-for-images{
