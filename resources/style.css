@@ -50,6 +50,9 @@ header{
 .header-links a:hover{
     color: #656979;
 }
+.icone{
+    display: none;
+}
 .logo{
     display: inline-flex;
     align-items: center;
@@ -80,10 +83,14 @@ header{
     height: auto;
 }
 .img-height{
-    width: 100%;
+    max-width: 900px;
+    max-height: 494px;
 }
 .img-height img{
-    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    display: block;
 }
 .banner-text{
     padding: 0rem 0rem 6rem 1.5rem;
@@ -100,6 +107,7 @@ header{
 }
 .start-box {
     background-color: #404040;
+    margin-top: 2rem;
 }
 .start-box a{
     padding: 0.5rem;
@@ -126,7 +134,7 @@ h2{
     font-weight: 700;
     font-size: 2.25rem;
     color: #404040;
-    margin: 2rem 0rem 1.5rem 0rem;
+    margin: 0rem 0rem 1.5rem 0rem;
     width: 100%;
 }
 h3{
@@ -139,6 +147,7 @@ h3{
 .second-banner-text{
     width: 100%;
     position: relative;
+    margin-top: -3rem;
 }
 .second-banner-text span {
     font-weight: 300;
@@ -377,19 +386,129 @@ section{
     border-top: 1px #d6d6d6 solid;
     font-weight: 300;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    width: 100%;
 }
 .foot i{
-    margin-left: 1.5rem;
-    margin-top: 1rem;
-    margin-bottom: 3rem;
+    margin: 1rem 0rem 3rem 1.5rem;
 }
 .terms{
-    display: flex;
-    flex-direction: row;
+    display: inline-flex;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: 1.5rem;
+}
+footer span{
     margin-top: 1rem;
 }
 .terms p{
     margin: 0rem 0.5rem 0rem 0rem;
+}
+@media only screen and (max-width: 480px){
+    #colmar, #academy, .images-with-text img, .images-with-text p, .images-with-text span,
+     .fourth-banner-right-content, .reimagine-urban, .terms, nav a{
+        display: none;
+    }
+    .column, .banner{
+        padding: 0;
+        width: 100%;
+    }
+    .left{
+        width: 100%;
+        max-height: 220px;
+    }
+    .second-banner-cont{
+        display: none;
+        border: none;
+    }
+    .border, .bottom-border{
+        border: none;
+    }
+    .second-banner{
+        padding: 0;
+    }
+    .right{
+        display: flex;
+        width: 100%;
+        padding: 2rem 0rem 2rem 0rem;
+    }
+    .column-images-width, .spacing, .third-banner-images-and-text{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    .images-with-text{
+        margin: 0;
+        background-color: #d6d6d6;
+        margin: 0.25rem 0rem 0.25rem 0rem;
+    }
+    .spacing img{
+        width: auto;
+        max-height: 160px;
+        object-fit: cover;
+    }
+    .banner-cont, .images-with-text{
+        flex-direction: column;
+    }
+    .banner-text{
+        padding: 0rem 1rem 0rem 1rem;
+        width: 100%;
+    }
+    h1{
+        font-size: 2rem;
+        padding-bottom: 2rem;
+        line-height:  3rem;
+    }
+    h3{
+        line-height: 2rem;
+    }
+    .start-box{
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+    .header-links{
+        width: 70%;
+    }
+    nav{
+        width: 100%;
+        display: inline-flex;
+        justify-content: space-around;
+    }
+    .logo img{
+        height: 2rem;
+    }
+    .icone{
+        size: 2rem;
+        display: flex;
+    }
+    .position-top-edge, .position-top-edge2{
+        margin-top: 1rem;
+        font-size: 1.5rem;
+    }
+    .text-for-images{
+        margin-left: 2rem;
+        width: 100%;
+    }
+    .position-bottom-edge, .position-bottom-edge2, .position, .position-top-edge{
+        margin-bottom: 0;
+        line-height: 1.7rem;
+    }
+    .gray{
+        background-color: white;
+    }
+    .images-with-text h3{
+        font-weight: 500;
+    }
+    .images-with-text:last-child{
+        margin-bottom: 2rem;
+    }
+    .video-wrapper{
+        width: 100%;
+        margin: 0;
+    }
+    footer{
+        font-size: 0.7rem;
+    }
+    .foot i{
+        margin: 2.5rem 0rem 1rem 1rem;
+    }
 }
